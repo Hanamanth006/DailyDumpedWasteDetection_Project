@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3F467"
+    tools:context=".second">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="153dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="277dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:text="Detect garbage"
+        android:textColor="@color/white"
+        android:textSelectHandle="@drawable/frame"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="149dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="371dp"
+        android:background="@drawable/button"
+        android:text="Label image"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/unique"
+        android:layout_width="153dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="135dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:text="Contact Details"
+        android:textColor="@color/white"
+        android:textSelectHandle="@drawable/frame"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="486dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="468dp"
+        app:srcCompat="@drawable/subtraction_5" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-5dp"
+        app:srcCompat="@drawable/subtraction_7" />
+
+
+
+
+</RelativeLayout>

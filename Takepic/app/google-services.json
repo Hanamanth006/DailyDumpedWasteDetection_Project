@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "730417231767",
+    "project_id": "takepic-3314a",
+    "storage_bucket": "takepic-3314a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730417231767:android:0201d719baadac68ed76d2",
+        "android_client_info": {
+          "package_name": "com.example.takepic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730417231767-h7aqu6d8aa2emhfuobqflv1cr2633srq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.takepic",
+            "certificate_hash": "9a855fcf928f48ff11f3d21df17086b14592b502"
+          }
+        },
+        {
+          "client_id": "730417231767-0l45k03bcm0g1i9cn8ggp7s7klvpodba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe3bvMzT2birPFtkInxRMgigRfWw10lNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730417231767-0l45k03bcm0g1i9cn8ggp7s7klvpodba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

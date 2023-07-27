@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3F467"
+    tools:context=".Firestore">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="575dp"
+        android:text="CONTACT DETAILS"
+        android:textAllCaps="false"
+        android:textColor="#CC3232"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnfetch"
+        android:layout_width="153dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="446dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:text="fetch data"
+        android:textColor="@color/white"
+        android:textSelectHandle="@drawable/frame"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="527dp"
+        android:background="#9C4040" />
+
+
+    <TextView
+        android:id="@+id/textViewfire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="360dp"
+        android:text="Location:"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewfire2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="283dp"
+        android:text="ChiefEngineer Name:"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewfire3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="221dp"
+        android:text="Contact Number:"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cycle"
+        android:layout_width="153dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:text="fetch more"
+        android:textColor="@color/white"
+        android:textSelectHandle="@drawable/frame"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

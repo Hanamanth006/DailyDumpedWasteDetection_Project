@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3F467"
+    tools:context=".lastbutone">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/last"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="281dp"
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:text="Recycler View Of Data"
+        android:textColor="@color/white"
+        android:textSelectHandle="@drawable/frame"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="486dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="468dp"
+        app:srcCompat="@drawable/subtraction_5" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-5dp"
+        app:srcCompat="@drawable/subtraction_7" />
+
+
+
+
+</RelativeLayout>
